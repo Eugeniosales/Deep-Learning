@@ -24,7 +24,7 @@ warnings.filterwarnings('ignore')
 ## Part 1: Data Pre-processing
 
 #Import the dataset and set the dependent and independent variables
-dataset = pd.read_csv('/home/eugenio/Área de Trabalho/DeepLearning/course/1_building_ann/Churn_Modelling.csv')
+dataset = pd.read_csv('Churn_Modelling.csv')
 X = dataset.iloc[:, 3:13].values
 Y = dataset.iloc[:, 13].values
 
